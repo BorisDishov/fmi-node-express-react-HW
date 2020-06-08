@@ -9,10 +9,10 @@ const userValidator = {
     name: 'string',
     loginName: 'required|string|max:15',
     password: 'required|string|min:8',
-    gender: 'in:male, female, other',
-    role: 'in:admin, user',
+    gender: 'in:male,female,other',
+    role: 'in:admin,user',
     description: 'string|max:512',
-    status: 'in:active, suspended, deactivated'
+    status: 'in:active,suspended,deactivated'
 }
 
 const recipeValidator = {
