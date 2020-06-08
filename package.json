@@ -1,0 +1,35 @@
+{
+  "name": "nodefmi",
+  "version": "1.0.0",
+  "description": "homework 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w ./ ./server.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorisDishov/fmi-node-express-react-HW.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Boris Dishov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BorisDishov/fmi-node-express-react-HW/issues"
+  },
+  "homepage": "https://github.com/BorisDishov/fmi-node-express-react-HW#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "indicative": "^7.4.4",
+    "livereload": "^0.9.1",
+    "mongodb": "^3.5.8",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "livereload": "^0.9.1"
+  }
+}
