@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/BorisDishov/fmi-node-express-react-HW#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "indicative": "^7.4.4",
     "livereload": "^0.9.1",
     "mongodb": "^3.5.8",
